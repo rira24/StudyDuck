@@ -11,6 +11,7 @@
 		BDAA60952A67221500824AA2 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA60942A67221500824AA2 /* Calculator.swift */; };
 		BDAA60972A67225A00824AA2 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA60962A67225A00824AA2 /* Resources.swift */; };
 		BDAA60992A67230D00824AA2 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA60982A67230D00824AA2 /* Notes.swift */; };
+		BDB2174F2A6725BF00E44996 /* calculatedResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2174E2A6725BF00E44996 /* calculatedResultView.swift */; };
 		BDCDF4492A67138A00EC1909 /* StudyDuckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCDF4482A67138A00EC1909 /* StudyDuckApp.swift */; };
 		BDCDF44B2A67138A00EC1909 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCDF44A2A67138A00EC1909 /* ContentView.swift */; };
 		BDCDF44D2A67138B00EC1909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCDF44C2A67138B00EC1909 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		BDAA60942A67221500824AA2 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		BDAA60962A67225A00824AA2 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		BDAA60982A67230D00824AA2 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		BDB2174E2A6725BF00E44996 /* calculatedResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatedResultView.swift; sourceTree = "<group>"; };
 		BDCDF4452A67138A00EC1909 /* StudyDuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyDuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCDF4482A67138A00EC1909 /* StudyDuckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyDuckApp.swift; sourceTree = "<group>"; };
 		BDCDF44A2A67138A00EC1909 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				BDAA60982A67230D00824AA2 /* Notes.swift */,
 				BDAA60962A67225A00824AA2 /* Resources.swift */,
 				BDAA60942A67221500824AA2 /* Calculator.swift */,
+				BDB2174E2A6725BF00E44996 /* calculatedResultView.swift */,
 				BDAA60922A6721C300824AA2 /* Duck.swift */,
 				BDE2D7272A6720FF00B98FE9 /* Schedule.swift */,
 				BDE2D7252A671EB900B98FE9 /* calendar.swift */,
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDB2174F2A6725BF00E44996 /* calculatedResultView.swift in Sources */,
 				BDAA60932A6721C300824AA2 /* Duck.swift in Sources */,
 				BDE2D7262A671EB900B98FE9 /* calendar.swift in Sources */,
 				BDAA60972A67225A00824AA2 /* Resources.swift in Sources */,
