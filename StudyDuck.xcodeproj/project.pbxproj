@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDAA60932A6721C300824AA2 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA60922A6721C300824AA2 /* Duck.swift */; };
+		BDAA60952A67221500824AA2 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA60942A67221500824AA2 /* Calculator.swift */; };
+		BDAA60972A67225A00824AA2 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA60962A67225A00824AA2 /* Resources.swift */; };
+		BDAA60992A67230D00824AA2 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA60982A67230D00824AA2 /* Notes.swift */; };
 		BDCDF4492A67138A00EC1909 /* StudyDuckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCDF4482A67138A00EC1909 /* StudyDuckApp.swift */; };
 		BDCDF44B2A67138A00EC1909 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCDF44A2A67138A00EC1909 /* ContentView.swift */; };
 		BDCDF44D2A67138B00EC1909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCDF44C2A67138B00EC1909 /* Assets.xcassets */; };
 		BDCDF4502A67138C00EC1909 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCDF44F2A67138C00EC1909 /* Preview Assets.xcassets */; };
+		BDE2D7262A671EB900B98FE9 /* calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2D7252A671EB900B98FE9 /* calendar.swift */; };
+		BDE2D7282A6720FF00B98FE9 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2D7272A6720FF00B98FE9 /* Schedule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BDAA60922A6721C300824AA2 /* Duck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
+		BDAA60942A67221500824AA2 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		BDAA60962A67225A00824AA2 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		BDAA60982A67230D00824AA2 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
 		BDCDF4452A67138A00EC1909 /* StudyDuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyDuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCDF4482A67138A00EC1909 /* StudyDuckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyDuckApp.swift; sourceTree = "<group>"; };
 		BDCDF44A2A67138A00EC1909 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDCDF44C2A67138B00EC1909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDCDF44F2A67138C00EC1909 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDE2D7252A671EB900B98FE9 /* calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendar.swift; sourceTree = "<group>"; };
+		BDE2D7272A6720FF00B98FE9 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				BDCDF4482A67138A00EC1909 /* StudyDuckApp.swift */,
 				BDCDF44A2A67138A00EC1909 /* ContentView.swift */,
+				BDAA60982A67230D00824AA2 /* Notes.swift */,
+				BDAA60962A67225A00824AA2 /* Resources.swift */,
+				BDAA60942A67221500824AA2 /* Calculator.swift */,
+				BDAA60922A6721C300824AA2 /* Duck.swift */,
+				BDE2D7272A6720FF00B98FE9 /* Schedule.swift */,
+				BDE2D7252A671EB900B98FE9 /* calendar.swift */,
 				BDCDF44C2A67138B00EC1909 /* Assets.xcassets */,
 				BDCDF44E2A67138C00EC1909 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDAA60932A6721C300824AA2 /* Duck.swift in Sources */,
+				BDE2D7262A671EB900B98FE9 /* calendar.swift in Sources */,
+				BDAA60972A67225A00824AA2 /* Resources.swift in Sources */,
 				BDCDF44B2A67138A00EC1909 /* ContentView.swift in Sources */,
+				BDE2D7282A6720FF00B98FE9 /* Schedule.swift in Sources */,
 				BDCDF4492A67138A00EC1909 /* StudyDuckApp.swift in Sources */,
+				BDAA60952A67221500824AA2 /* Calculator.swift in Sources */,
+				BDAA60992A67230D00824AA2 /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
