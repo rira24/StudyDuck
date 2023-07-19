@@ -9,7 +9,17 @@ import SwiftUI
 
 struct Resources: View {
     var body: some View {
-        Text("This is resources")
+        NavigationStack {
+            ZStack{
+                VStack {
+                    
+                    Text("Study Techniques")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        .multilineTextAlignment(.leading)
+                }
+            }
+        }
     }
 }
 
