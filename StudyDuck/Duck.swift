@@ -35,7 +35,7 @@ func pickMsg() -> String {
                 .font(.title)
                 
                 Text("Dave The Duck")
-                \\make bigger and bolder
+                //make bigger and bolder
                 
                 Image("duckTwo")
                     .resizable(resizingMode: .stretch)
