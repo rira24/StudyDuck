@@ -19,15 +19,14 @@ struct ContentView: View {
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .foregroundColor(Color(hue: 0.144, saturation: 0.272, brightness: 1.0))
-                        .multilineTextAlignment(.leading)
-                    
-                        Spacer().frame(height: 50)
+                                            
+                    Spacer().frame(height: 50)
                     NavigationLink(destination: calendar()) {  (Text("Calendar")
                         .foregroundColor(Color.black))
                     }
                     .font(.title2)
-                        .buttonStyle(.borderedProminent)
-                        .tint(Color(hue: 0.152, saturation: 0.256, brightness: 0.95))
+                    .buttonStyle(.borderedProminent)
+                    .tint(Color(hue: 0.152, saturation: 0.256, brightness: 0.95))
                     HStack{
                         NavigationLink(destination: Schedule()) {  (Text("Schedule")
                                                                     
@@ -35,24 +34,31 @@ struct ContentView: View {
                         }
                         .tint(Color(hue: 0.152, saturation: 0.256, brightness: 0.95))
                         .font(.title2)
-                            .buttonStyle(.borderedProminent)
+                        .buttonStyle(.borderedProminent)
                         // .tint(.yellow)
                         NavigationLink(destination: Duck()) {
                             (Image("duckP1")
                                 .resizable(capInsets: EdgeInsets(top: 0.0, leading: 0.0, bottom: 0.0, trailing: 0.0), resizingMode: .stretch)
-                            .aspectRatio(contentMode: .fit) )
-                           
+                                .aspectRatio(contentMode: .fit) )
+                            
                         }
                         .font(.title2)
-                            .buttonStyle(.borderedProminent)
-                            .tint(.green)
+                        .buttonStyle(.borderedProminent)
+                        .tint(.green)
                         
                     }.padding()
                     
-                    //Spacer().frame(width:20)
-                    
-                    HStack {
-                        NavigationLink(destination: Resources()) {  (Text("Resources"))
+                    //Spacer().frame(width:5)
+                    //}
+                }
+                
+                VStack {
+                    HStack(spacing: 100.0) {
+                        NavigationLink(destination: Resources()) {  (Image("book")
+                            .resizable(capInsets: EdgeInsets(), resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                                                                     
+                        )
                         }
                         .font(.title2)
                         .background(Circle().foregroundColor(Color(.yellow)).frame(width: 100)
@@ -60,9 +66,9 @@ struct ContentView: View {
                         )
                         
                         NavigationLink(destination: Calculator()) {  (Image("calc")
-                            .resizable(resizingMode: .stretch)
+                            .resizable(capInsets: EdgeInsets(), resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
-                            .foregroundColor(Color.red))
+                        )
                         }
                         .font(.title2)
                         .background(Circle().foregroundColor(Color(.yellow)).frame(width: 100)
@@ -71,21 +77,20 @@ struct ContentView: View {
                         
                         NavigationLink(destination: Notes()) {  (Image("pencil")
                             .resizable(resizingMode: .stretch)
-                            .aspectRatio(contentMode: .fit))
-                        }
-                        .padding(25)
-                        .font(.title2)
-                        .background(Circle().foregroundColor(Color(.yellow)).frame(width: 100)
-                            .frame(height: 90)
+                            .aspectRatio(contentMode: .fit)
                         )
-
-                           
+                            
+                        }
+                        .font(.title2)
+                        .background(Circle().foregroundColor(Color(.yellow)  ).frame(width: 100)
+                            .frame(height: 90))
                         
                         
-                        
-                    }.padding()
+                    } .padding()
+                } .padding(.top, 670.00) .padding(.horizontal, 20.00)
                     
-                }
+             //   }
+                    
                 
             }
         }
