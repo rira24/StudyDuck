@@ -34,6 +34,9 @@ func pickMsg() -> String {
                 .padding(/*@START_MENU_TOKEN@*/.top, 60.0/*@END_MENU_TOKEN@*/)
                 .font(.title)
                 
+                Text("Dave The Duck")
+                \\make bigger and bolder
+                
                 Image("duckTwo")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fill)
