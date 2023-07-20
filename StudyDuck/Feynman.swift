@@ -20,8 +20,15 @@ struct Feynman: View {
                 Spacer()
                     .frame(height: 20)
                 
-                Text("The Feynman Technique is used to understand a concept more and is effective when used with STEM and history. The first step is to learn the concept, then teach it, review it next, and lastly review it regularly with other study techniques.")
+                Text("\nThe Feynman Technique is used to understand a concept more and is effective when used with STEM and history. The first step is to learn the concept, then teach it, review it next, and lastly review it regularly with other study techniques.\n")
+                    
                     .multilineTextAlignment(.center)
+                    .background(Rectangle().foregroundColor(.white)).shadow(radius: 15)
+                    .cornerRadius(15)
+                    .padding()
+                    
+                    
+                
             }
             .padding()
             
