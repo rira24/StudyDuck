@@ -27,7 +27,7 @@ func pickMsg() -> String {
                     RoundedRectangle(cornerRadius: 20).foregroundColor(Color("lightYellow")).padding()
                     Button(clickMe) {
                         let randomMesssge = pickMsg()
-                        clickMe = "\(randomMesssge)"
+                        clickMe = "\n\(randomMesssge)\n"
                     }
                 }
                 

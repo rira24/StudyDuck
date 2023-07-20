@@ -11,7 +11,7 @@ struct Schedule: View {
     var body: some View {
         
          ZStack {
-             Color(.systemGreen)
+             Color("lighterGreen")
                  .ignoresSafeArea()
              
              
