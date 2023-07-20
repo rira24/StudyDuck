@@ -10,7 +10,7 @@ import SwiftUI
 struct Feynman: View {
     var body: some View {
         ZStack{
-            Color(.systemGreen)
+            Color("lighterGreen")
                 .ignoresSafeArea()
             VStack{
                 Text("Feynman Technique")

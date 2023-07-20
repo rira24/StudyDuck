@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Color(.systemGreen)
+                Color("darkGreen")
                     .ignoresSafeArea()
                 
                 VStack{
@@ -45,7 +45,7 @@ struct ContentView: View {
                         }
                         .font(.title2)
                         .buttonStyle(.borderedProminent)
-                        .tint(.green)
+                        .tint(Color("darkGreen"))
                         
                     }.padding()
                     
@@ -62,7 +62,7 @@ struct ContentView: View {
                         )
                         }
                         .font(.title2)
-                        .background(Circle().foregroundColor(Color(.yellow)).frame(width: 100)
+                        .background(Circle().foregroundColor(Color("yellow")).frame(width: 100)
                             .frame(height: 90)
                         )
                         
@@ -72,7 +72,7 @@ struct ContentView: View {
                         )
                         }
                         .font(.title2)
-                        .background(Circle().foregroundColor(Color(.yellow)).frame(width: 100)
+                        .background(Circle().foregroundColor(Color("yellow")).frame(width: 100)
                             .frame(height: 90)
                         )
                         
@@ -83,7 +83,7 @@ struct ContentView: View {
                             
                         }
                         .font(.title2)
-                        .background(Circle().foregroundColor(Color(.yellow)  ).frame(width: 100)
+                        .background(Circle().foregroundColor(Color("yellow")).frame(width: 100)
                             .frame(height: 90))
                         
                         

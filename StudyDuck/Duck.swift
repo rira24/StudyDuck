@@ -17,14 +17,14 @@ func pickMsg() -> String {
     }
     var body: some View {
         ZStack{
-            Color(.systemGreen)
+            Color("greenBackground")
                 .ignoresSafeArea()
             
           
             VStack {
                 
                 ZStack{
-                    RoundedRectangle(cornerRadius: 20).foregroundColor(Color(.white)).padding()
+                    RoundedRectangle(cornerRadius: 20).foregroundColor(Color("lightYellow")).padding()
                     Button(clickMe) {
                         let randomMesssge = pickMsg()
                         clickMe = "\(randomMesssge)"

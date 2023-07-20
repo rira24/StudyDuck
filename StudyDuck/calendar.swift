@@ -9,7 +9,13 @@ import SwiftUI
 
 struct calendar: View {
     var body: some View {
-        Text("This is calendar")
+        ZStack{
+            Color("greenBackground")
+                .ignoresSafeArea()
+            Image("calendar")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+        }
     }
 }
 

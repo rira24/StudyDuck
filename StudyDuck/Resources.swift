@@ -11,7 +11,7 @@ struct Resources: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Color(.systemGreen)
+                Color("greenBackground")
                     .ignoresSafeArea()
                 VStack {
                     Group {

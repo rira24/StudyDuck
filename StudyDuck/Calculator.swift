@@ -20,7 +20,7 @@ struct Calculator: View {
         
         NavigationStack {
             ZStack{
-                Color(.systemGreen)
+                Color("lighterGreen")
                     .ignoresSafeArea()
                 VStack(spacing: 40.0) {
                    

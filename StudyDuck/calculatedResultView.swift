@@ -25,7 +25,7 @@ struct calculatedResultView: View {
    
     var body: some View {
         ZStack{
-            Color(.systemGreen)
+            Color("lighterGreen")
                 .ignoresSafeArea()
             VStack(spacing: 50.0){
                 Button(buttonName){
