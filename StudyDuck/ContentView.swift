@@ -24,9 +24,10 @@ struct ContentView: View {
                     NavigationLink(destination: calendar()) {  (Text("Calendar")
                         .foregroundColor(Color.black))
                     }
+                    .tint(Color(hue: 0.152, saturation: 0.256, brightness: 0.95))
                     .font(.title2)
                     .buttonStyle(.borderedProminent)
-                    .tint(Color(hue: 0.152, saturation: 0.256, brightness: 0.95))
+                    
                     HStack{
                         NavigationLink(destination: Schedule()) {  (Text("Schedule")
                                                                     
@@ -88,9 +89,6 @@ struct ContentView: View {
                         
                     } .padding()
                 } .padding(.top, 670.00) .padding(.horizontal, 20.00)
-                    
-             //   }
-                    
                 
             }
         }

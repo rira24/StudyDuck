@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD9A13C42A697EB700FC0A1E /* Pomodoro.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A13C32A697EB700FC0A1E /* Pomodoro.swift */; };
+		BD9A13C62A697F2900FC0A1E /* SQ3R.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A13C52A697F2900FC0A1E /* SQ3R.swift */; };
+		BD9A13C82A697FE900FC0A1E /* ActiveRecall.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A13C72A697FE900FC0A1E /* ActiveRecall.swift */; };
+		BD9A13CA2A6980E800FC0A1E /* SpacedRepitition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A13C92A6980E800FC0A1E /* SpacedRepitition.swift */; };
+		BD9A13CC2A69815200FC0A1E /* Blurting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A13CB2A69815200FC0A1E /* Blurting.swift */; };
+		BD9A13CE2A69825400FC0A1E /* Feynman.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A13CD2A69825400FC0A1E /* Feynman.swift */; };
 		BDAA60932A6721C300824AA2 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA60922A6721C300824AA2 /* Duck.swift */; };
 		BDAA60952A67221500824AA2 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA60942A67221500824AA2 /* Calculator.swift */; };
 		BDAA60972A67225A00824AA2 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA60962A67225A00824AA2 /* Resources.swift */; };
@@ -21,6 +27,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD9A13C32A697EB700FC0A1E /* Pomodoro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pomodoro.swift; sourceTree = "<group>"; };
+		BD9A13C52A697F2900FC0A1E /* SQ3R.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQ3R.swift; sourceTree = "<group>"; };
+		BD9A13C72A697FE900FC0A1E /* ActiveRecall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveRecall.swift; sourceTree = "<group>"; };
+		BD9A13C92A6980E800FC0A1E /* SpacedRepitition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacedRepitition.swift; sourceTree = "<group>"; };
+		BD9A13CB2A69815200FC0A1E /* Blurting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blurting.swift; sourceTree = "<group>"; };
+		BD9A13CD2A69825400FC0A1E /* Feynman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feynman.swift; sourceTree = "<group>"; };
 		BDAA60922A6721C300824AA2 /* Duck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
 		BDAA60942A67221500824AA2 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		BDAA60962A67225A00824AA2 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
@@ -69,6 +81,12 @@
 				BDCDF44A2A67138A00EC1909 /* ContentView.swift */,
 				BDAA60982A67230D00824AA2 /* Notes.swift */,
 				BDAA60962A67225A00824AA2 /* Resources.swift */,
+				BD9A13CD2A69825400FC0A1E /* Feynman.swift */,
+				BD9A13CB2A69815200FC0A1E /* Blurting.swift */,
+				BD9A13C92A6980E800FC0A1E /* SpacedRepitition.swift */,
+				BD9A13C72A697FE900FC0A1E /* ActiveRecall.swift */,
+				BD9A13C52A697F2900FC0A1E /* SQ3R.swift */,
+				BD9A13C32A697EB700FC0A1E /* Pomodoro.swift */,
 				BDAA60942A67221500824AA2 /* Calculator.swift */,
 				BDB2174E2A6725BF00E44996 /* calculatedResultView.swift */,
 				BDAA60922A6721C300824AA2 /* Duck.swift */,
@@ -158,14 +176,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9A13C62A697F2900FC0A1E /* SQ3R.swift in Sources */,
 				BDB2174F2A6725BF00E44996 /* calculatedResultView.swift in Sources */,
 				BDAA60932A6721C300824AA2 /* Duck.swift in Sources */,
 				BDE2D7262A671EB900B98FE9 /* calendar.swift in Sources */,
+				BD9A13CA2A6980E800FC0A1E /* SpacedRepitition.swift in Sources */,
+				BD9A13C82A697FE900FC0A1E /* ActiveRecall.swift in Sources */,
 				BDAA60972A67225A00824AA2 /* Resources.swift in Sources */,
+				BD9A13C42A697EB700FC0A1E /* Pomodoro.swift in Sources */,
 				BDCDF44B2A67138A00EC1909 /* ContentView.swift in Sources */,
 				BDE2D7282A6720FF00B98FE9 /* Schedule.swift in Sources */,
 				BDCDF4492A67138A00EC1909 /* StudyDuckApp.swift in Sources */,
+				BD9A13CE2A69825400FC0A1E /* Feynman.swift in Sources */,
 				BDAA60952A67221500824AA2 /* Calculator.swift in Sources */,
+				BD9A13CC2A69815200FC0A1E /* Blurting.swift in Sources */,
 				BDAA60992A67230D00824AA2 /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
