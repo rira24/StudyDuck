@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD5644432A69B81A00B4DC95 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD56443F2A69B81A00B4DC95 /* Persistence.swift */; };
-		BD5644452A69B84700B4DC95 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5644442A69B84700B4DC95 /* NewToDoView.swift */; };
-		BD5644472A69B86400B4DC95 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5644462A69B86400B4DC95 /* ToDoItem.swift */; };
-		BD56444A2A69B89C00B4DC95 /* toDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD5644482A69B89C00B4DC95 /* toDoList.xcdatamodeld */; };
+		BD0242632A69BD2100CD50C9 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0242622A69BD2100CD50C9 /* Persistance.swift */; };
+		BD0242652A69BE4F00CD50C9 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0242642A69BE4F00CD50C9 /* NewToDoView.swift */; };
+		BD0242672A69BE7C00CD50C9 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0242662A69BE7C00CD50C9 /* ToDoItem.swift */; };
+		BD02426A2A69BEA100CD50C9 /* StudyDuck.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD0242682A69BEA100CD50C9 /* StudyDuck.xcdatamodeld */; };
 		BD9A13C42A697EB700FC0A1E /* Pomodoro.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A13C32A697EB700FC0A1E /* Pomodoro.swift */; };
 		BD9A13C62A697F2900FC0A1E /* SQ3R.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A13C52A697F2900FC0A1E /* SQ3R.swift */; };
 		BD9A13C82A697FE900FC0A1E /* ActiveRecall.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A13C72A697FE900FC0A1E /* ActiveRecall.swift */; };
@@ -30,36 +30,11 @@
 		BDE2D7282A6720FF00B98FE9 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2D7272A6720FF00B98FE9 /* Schedule.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BD89941F2A69B505004E9B3B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BD8994192A69B505004E9B3B /* toDoList.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BD8B52352A61D06400AD14DE;
-			remoteInfo = toDoList;
-		};
-		BD8994212A69B505004E9B3B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BD8994192A69B505004E9B3B /* toDoList.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BD8B52452A61D06600AD14DE;
-			remoteInfo = toDoListTests;
-		};
-		BD8994232A69B505004E9B3B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BD8994192A69B505004E9B3B /* toDoList.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BD8B524F2A61D06600AD14DE;
-			remoteInfo = toDoListUITests;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		BD56443F2A69B81A00B4DC95 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = "../../toDoList-notes/Persistence.swift"; sourceTree = "<group>"; };
-		BD5644442A69B84700B4DC95 /* NewToDoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewToDoView.swift; path = "../../toDoList-notes/toDoList/NewToDoView.swift"; sourceTree = "<group>"; };
-		BD5644462A69B86400B4DC95 /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToDoItem.swift; path = "../../toDoList-notes/toDoList/ToDoItem.swift"; sourceTree = "<group>"; };
-		BD5644492A69B89C00B4DC95 /* toDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = toDoList.xcdatamodel; sourceTree = "<group>"; };
-		BD8994192A69B505004E9B3B /* toDoList.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = toDoList.xcodeproj; path = "../../../toDoList-notes/toDoList.xcodeproj"; sourceTree = "<group>"; };
+		BD0242622A69BD2100CD50C9 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		BD0242642A69BE4F00CD50C9 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		BD0242662A69BE7C00CD50C9 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		BD0242692A69BEA100CD50C9 /* toDolist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = toDolist.xcdatamodel; sourceTree = "<group>"; };
 		BD9A13C32A697EB700FC0A1E /* Pomodoro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pomodoro.swift; sourceTree = "<group>"; };
 		BD9A13C52A697F2900FC0A1E /* SQ3R.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQ3R.swift; sourceTree = "<group>"; };
 		BD9A13C72A697FE900FC0A1E /* ActiveRecall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveRecall.swift; sourceTree = "<group>"; };
@@ -91,16 +66,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BD89941A2A69B505004E9B3B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BD8994202A69B505004E9B3B /* toDoList.app */,
-				BD8994222A69B505004E9B3B /* toDoListTests.xctest */,
-				BD8994242A69B505004E9B3B /* toDoListUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		BDCDF43C2A67138A00EC1909 = {
 			isa = PBXGroup;
 			children = (
@@ -121,10 +86,10 @@
 			isa = PBXGroup;
 			children = (
 				BDCDF4482A67138A00EC1909 /* StudyDuckApp.swift */,
-				BD5644482A69B89C00B4DC95 /* toDoList.xcdatamodeld */,
-				BD5644462A69B86400B4DC95 /* ToDoItem.swift */,
-				BD5644442A69B84700B4DC95 /* NewToDoView.swift */,
-				BD56443F2A69B81A00B4DC95 /* Persistence.swift */,
+				BD0242622A69BD2100CD50C9 /* Persistance.swift */,
+				BD0242642A69BE4F00CD50C9 /* NewToDoView.swift */,
+				BD0242662A69BE7C00CD50C9 /* ToDoItem.swift */,
+				BD0242682A69BEA100CD50C9 /* StudyDuck.xcdatamodeld */,
 				BDCDF44A2A67138A00EC1909 /* ContentView.swift */,
 				BDAA60982A67230D00824AA2 /* Notes.swift */,
 				BDAA60962A67225A00824AA2 /* Resources.swift */,
@@ -148,7 +113,6 @@
 		BDCDF44E2A67138C00EC1909 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				BD8994192A69B505004E9B3B /* toDoList.xcodeproj */,
 				BDCDF44F2A67138C00EC1909 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -200,42 +164,12 @@
 			mainGroup = BDCDF43C2A67138A00EC1909;
 			productRefGroup = BDCDF4462A67138A00EC1909 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = BD89941A2A69B505004E9B3B /* Products */;
-					ProjectRef = BD8994192A69B505004E9B3B /* toDoList.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				BDCDF4442A67138A00EC1909 /* StudyDuck */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		BD8994202A69B505004E9B3B /* toDoList.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = toDoList.app;
-			remoteRef = BD89941F2A69B505004E9B3B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BD8994222A69B505004E9B3B /* toDoListTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = toDoListTests.xctest;
-			remoteRef = BD8994212A69B505004E9B3B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BD8994242A69B505004E9B3B /* toDoListUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = toDoListUITests.xctest;
-			remoteRef = BD8994232A69B505004E9B3B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BDCDF4432A67138A00EC1909 /* Resources */ = {
@@ -255,22 +189,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD9A13C62A697F2900FC0A1E /* SQ3R.swift in Sources */,
-				BD5644432A69B81A00B4DC95 /* Persistence.swift in Sources */,
-				BD5644472A69B86400B4DC95 /* ToDoItem.swift in Sources */,
 				BDB2174F2A6725BF00E44996 /* calculatedResultView.swift in Sources */,
+				BD0242672A69BE7C00CD50C9 /* ToDoItem.swift in Sources */,
 				BDAA60932A6721C300824AA2 /* Duck.swift in Sources */,
 				BDE2D7262A671EB900B98FE9 /* calendar.swift in Sources */,
 				BD9A13CA2A6980E800FC0A1E /* SpacedRepitition.swift in Sources */,
-				BD5644452A69B84700B4DC95 /* NewToDoView.swift in Sources */,
 				BD9A13C82A697FE900FC0A1E /* ActiveRecall.swift in Sources */,
+				BD0242652A69BE4F00CD50C9 /* NewToDoView.swift in Sources */,
+				BD02426A2A69BEA100CD50C9 /* StudyDuck.xcdatamodeld in Sources */,
 				BDAA60972A67225A00824AA2 /* Resources.swift in Sources */,
-				BD56444A2A69B89C00B4DC95 /* toDoList.xcdatamodeld in Sources */,
 				BD9A13C42A697EB700FC0A1E /* Pomodoro.swift in Sources */,
 				BDCDF44B2A67138A00EC1909 /* ContentView.swift in Sources */,
 				BDE2D7282A6720FF00B98FE9 /* Schedule.swift in Sources */,
 				BDCDF4492A67138A00EC1909 /* StudyDuckApp.swift in Sources */,
 				BD9A13CE2A69825400FC0A1E /* Feynman.swift in Sources */,
 				BDAA60952A67221500824AA2 /* Calculator.swift in Sources */,
+				BD0242632A69BD2100CD50C9 /* Persistance.swift in Sources */,
 				BD9A13CC2A69815200FC0A1E /* Blurting.swift in Sources */,
 				BDAA60992A67230D00824AA2 /* Notes.swift in Sources */,
 			);
@@ -473,14 +407,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		BD5644482A69B89C00B4DC95 /* toDoList.xcdatamodeld */ = {
+		BD0242682A69BEA100CD50C9 /* StudyDuck.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				BD5644492A69B89C00B4DC95 /* toDoList.xcdatamodel */,
+				BD0242692A69BEA100CD50C9 /* toDolist.xcdatamodel */,
 			);
-			currentVersion = BD5644492A69B89C00B4DC95 /* toDoList.xcdatamodel */;
-			name = toDoList.xcdatamodeld;
-			path = "../../toDoList-notes/toDoList/toDoList.xcdatamodeld";
+			currentVersion = BD0242692A69BEA100CD50C9 /* toDolist.xcdatamodel */;
+			path = StudyDuck.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

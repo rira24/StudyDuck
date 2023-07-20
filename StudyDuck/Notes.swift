@@ -52,9 +52,9 @@ struct Notes: View {
                             
                         }
                         
-                    }
+                    }.padding()
                     
-                }.padding()
+                
             
                 Spacer()
                 List {
@@ -68,6 +68,7 @@ struct Notes: View {
                         //
                     }.onDelete(perform: deleteTask)
                 }.listStyle(.plain)
+            }
                 
                 if showNewTask{
                     NewToDoView(title: "", isImportant: false, notes: "", showNewTask: $showNewTask)
